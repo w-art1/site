@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{background:#00688b}
+
+#wrapper{ width:980px; min-height:1000px; margin:0 auto;}
+#upper_contents{ background:#011121; width:980px;}
+
+#header{ width:980px; height:164px; background:url(../image/header_bg.png) no-repeat top; }
+#logo{ width:415px;height:95px; padding:34px 0 0 36px; float:left;}
+#logo img{width:415px;height:95px;}
+
+#news{ width:280px ; height:110px; float:right; margin: 20px 70px 0 0}
+#news h1{ color:#e9f1f7; font-family:Verdana, Geneva, sans-serif; font-size:16px;}
+#news p{ color:#e9f6ff; font:Verdana, Geneva, sans-serif; font-size:13px; text-align:justify;}
+#news a{ text-decoration:none ;color:#FFF; float:right;}
+
+#menu{   margin-top:55px}
+#menu ul{background:url(../image/menu_bg.png) repeat-x;width:840px; height:31px;}
+#menu ul li{ float:left; padding:px; height:31px; width:166px; text-align:center; line-height:31px; background:url(../image/menu_item.png) no-repeat ;}
+#menu ul li a{ color:#FFF; text-decoration:none; font-family:Verdana, Geneva, sans-serif; font-size:14px;}
+
+#menu ul li:hover,#menu ul li:first-child{background:url(../image/menu_hover.png) no-repeat }
+
+
+#menu li ul{ display:none;}
+#menu li:hover ul{display:block; z-index:9999; position:absolute; width:166px;}
+#menu li li { background:url(../image/menu_item.png) no-repeat #011c39;}
+
+#menu li li:hover{ background:url(../image/menu_hover.png) no-repeat #011c39;}
+
+
+
+#menu li ul li a{}
+
+#slider { width:980px; padding:0 20px;}
+#slider img{ width:940; height:276px;}
+
+#bloks{ width:940px; margin:0 20px;}
+.blok{ float:left; width:300px; height; margin-right:20px}
+/*.blok:last-child{ margin-right:0;}*/
+.blok h1{ font-family:Verdana, Geneva, sans-serif; font-size:20; color:#FFF;}
+.blok p{ font-family:Verdana, Geneva, sans-serif; color:#7ed1fe; text-align:start; font-size:12px; margin-top:15px; line-height:16px; margin-bottom:20px;}
+.blok a{ text-decoration:none; color:#fff;}
+
+#contents{
+	width: 940px;
+	padding: 20px;
+	background: #001a33;
+	margin-top: -1px;
+	height: 1500px;
+}
+#left_contents{ width:620px; }
+
+#lates_projects{ float: left;height: 405px;
+ width: 640px;}
+#lates_projects h1{	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	line-height: 16px;}	
+
+.project{ width:300px; height:100px; float:left; margin-right:20px;}
+project:nth-child(odd){ margin-right:0px}
+
+.project h3{font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#90c9f4; line-height:19px;}
+.project h2{ color:#FFF; font-family:Verdana, Geneva, sans-serif; font-size:16px; line-height:19px;}
+.project p{ font-size:12px; font-family:Verdana, Geneva, sans-serif; color:#bde2ff; text-align:start; line-height:15px;}
+
+.flash ::first-child{margin-top:60px}
+
+.flash{ width:620px; float:left;}
+.flash h1{ font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#49adfb; text-align:center;}
+.flash img{width:607px; height:358px;}
+
+#sidebar{
+	float: right;
+	/* [disabled]width: 303px; */
+	height: 390px;
+
+
+	float right;
+	}
+
+#partners{  height:500px;   width: 300px;}
+.partners_blok h1{ font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#97D1FE}
+.partners_blok h2{ color:#CCC; font-family:Verdana, Geneva, sans-serif; font-size: 9px;  line-height:15px;}
+.partners_blok img{width:70px; height:23px; float:left; margin: 30px 23px 19px 0; padding:3;}
+.partners_blok p{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#72a3cb; text-align:start; line-height:14px;}
+.partners_blok a{ text-decoration:none; color:#fff;}
+
+#send_message{ background:url(../image/send_message_bg.png) no-repeat;width:298px; height:490px; float:right; margin-top:10px; }
+#send_message h3{ padding:10px; font-family:Arial, Helvetica, sans-serif; text-align:center;  font-size:23px; color:#97d1fe}
+
+#send_message h6{
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #97d1fe
+}
+#send_message input{ border-style:none; border-radius:5px; float:right; width:150px; height:25px; margin-right:15px; margin-bottom:5px; margin-top:-33px; background:#f1f9ff}
+#send_message textarea{ width:270px; min-height:50px; padding:5px}
+ send_message submit{ background:url(../image/send.png) no-repeat}
+#facebok{}
+#foter{ background:#011A33; width:980px; height:90px; clear:both;}
+#foter{ color:#FFF; text-decoration:none; font-family:Verdana, Geneva, sans-serif; font-size:14px; float:right;}
+
+#foter h1{ color:#FFF; text-decoration:none; font-family:Verdana, Geneva, sans-serif; font-size:14px; text-align:center;}
+
+
+.clear{ width:100%; height:1px; clear:both;}
